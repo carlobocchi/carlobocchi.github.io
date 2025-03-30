@@ -33,9 +33,9 @@ color:
 # Footer settings
 footer:
   copyright: Carlo Bocchi
-  location: Busseto
+  location: Sede
   social: Contatti
-  credits: Credits
+  credits: Crediti
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
