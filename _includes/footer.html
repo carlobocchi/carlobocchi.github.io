@@ -20,6 +20,7 @@
               {% <a href="mailto:{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-envelope"></i></a> %}
               {% else %}
               {% <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-{{ network.title }}"></i></a> %}
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
