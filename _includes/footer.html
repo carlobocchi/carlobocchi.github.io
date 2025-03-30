@@ -17,9 +17,18 @@
             {% for network in site.social %}
             <li>
               {% if network.title == "email" %}
-              <a href="{{ network.url }}" class="btn-social btn-outline"> <i class="fa-brands fa-fw fa-envelope"></i> </a> 
+              <script type="text/javascript">
+              <!––
+              var emAdy = "Contact <a";
+              emAdy += " href=\"mailto:me";
+              emAdy += "@mydomain";
+              emAdy += ".co.uk\">Me</a>";
+              document.write(emAdy);
+              // ––>
+              </script> 
+              <a href="{{ network.url }}" class="btn-social btn-outline"> <i class="fa fa-fw fa-envelope"></i> </a> 
               {% elsif network.title == "pec" %}
-              <a href="{{ network.url }}" class="btn-social btn-outline"> <i class="fa-brands fa-fw fa-envelope"></i> </a>
+              <a href="{{ network.url }}" class="btn-social btn-outline"> <i class="fa fa-fw fa-envelope"></i> </a>
               {% else %}
               <a href="{{ network.url }}" class="btn-social btn-outline"> <i class="fa-brands fa-fw fa-{{ network.title }}"></i> </a>
               {% endif %}
