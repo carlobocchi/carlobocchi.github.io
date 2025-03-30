@@ -33,13 +33,13 @@ color:
 # Footer settings
 footer:
   copyright: Carlo Bocchi
-  location: Sede
+  location: Studio
   social: Contatti
   credits: Crediti
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  phone: 0524935040
+  phone: +390524935040
   email: geocarlobocchi@virgilio.it
   pec: geocarlobocchi@virgilio.it
   linkedin: pass 
