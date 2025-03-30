@@ -16,7 +16,9 @@
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
-              {% if network.title == "email" or network.title == "pec" %}
+              {% if network.title == "email" %}
+              {% <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-envelope"></i></a> %}
+              {% elsif network.title == "pec" %}
               {% <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-envelope"></i></a> %}
               {% else %}
               {% <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa-brands fa-fw fa-{{ network.title }}"></i></a> %}
