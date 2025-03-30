@@ -17,9 +17,9 @@
             {% for network in site.social %}
             <li>
               {% if network[0] == "email" %}
-              <a href="{{ network[1] }}" title = "email" class="btn-social btn-outline"> <i class="fa fa-fw fa-envelope"></i> </a> 
+              <a href="tel:{{ network[1] }}" title = "email" class="btn-social btn-outline"> <i class="fa fa-fw fa-envelope"></i> </a> 
               {% elsif network[0] == "pec" %}
-              <a href="{{ network[1] }}" title = "Pec" class="btn-social btn-outline"> <i class="fa fa-fw fa-envelope"></i> </a>
+              <a href="{{ network[1] }}" title = "Pec" class="btn-social btn-outline"> <i class="fa fa-fw fa-certificate"></i> </a>
               {% elsif network[0] == "linkedin" %}
               <a href="{{ network[1] }}" title = "LinkedIn" class="btn-social btn-outline"> <i class="fa-brands fa-fw fa-linkedin"></i> </a>
               {% elsif network[0] == "phone" %}
