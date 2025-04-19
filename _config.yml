@@ -50,7 +50,7 @@ address:
   - line: 43011 Busseto (PR)
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Freelancer è un tema per Bootstrap open source e libero da utilizzare creato da <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
