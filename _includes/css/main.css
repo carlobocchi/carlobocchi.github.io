@@ -60,12 +60,12 @@ hr.star-primary:after {
 
 hr.star-light {
     border-color: #fff;
+    background-color: transparent;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: transparent;
-    /*background-color: #{{ site.color.primary }};*/
+    background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
