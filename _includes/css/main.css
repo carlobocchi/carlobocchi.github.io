@@ -83,7 +83,9 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    /*background: #{{ site.color.primary }};*/
+    background-image: URL('img/DSCN5375.jpg');
+    background-size: cover;
 }
 
 header .container {
@@ -167,7 +169,7 @@ header .intro-text .skills {
 }
 
 .navbar-default,
-.navbar-inverse {background: #{{ site.color.primary }};
+.navbar-inverse {
     border: 0;
 }
 
