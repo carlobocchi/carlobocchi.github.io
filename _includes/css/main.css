@@ -60,12 +60,11 @@ hr.star-primary:after {
 
 hr.star-light {
     border-color: #fff;
-    background-color: transparent;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    /*background-color: #{{ site.color.primary }};*/
 }
 
 hr.star-primary {
@@ -85,6 +84,7 @@ header {
     text-align: center;
     color: #fff;
     background-image: URL('img/DSCN5375.jpg');
+    background-size: 300px 100px;
     /* background: #{{ site.color.primary }}; */
 }
 
